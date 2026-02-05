@@ -1,10 +1,11 @@
 # -ssh-
 配置实验室电脑ssh跳板机转发
+
 参考教程：
 'https://www.cnblogs.com/XiiX/p/15095135.html'
 
-学校虚拟机网址：
-`https://vlab.ustc.edu.cn`
+作为跳板机的学校虚拟机网址：
+```https://vlab.ustc.edu.cn```
 
 
 现在有三台机器：实验室电脑A,跳板服务器B,移动笔记本C
