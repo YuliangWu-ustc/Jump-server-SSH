@@ -13,12 +13,16 @@
 
 ## Step2:
 A上输入：
-`ssh -fCNR port:localhost:22 ubuntu@vlab.ustc.edu.cn`
+```
+ssh -fCNR port:localhost:22 ubuntu@vlab.ustc.edu.cn
+```
 port 可以是1332，1331，1321
 
 ## Step3:
 测试是否成功，在B上输入：
-`ssh -p 1332 name@localhost`
+```
+ssh -p 1332 name@localhost
+```
 这里我的name是assac(A的name)
 
 ## Step4:
@@ -32,9 +36,13 @@ sudo service ssh restart
 ## Step5:
 现在可以在C上测试一下：
 先输入：
-`ssh ubuntu@vlab.ustc.edu.cn`
+```
+ssh ubuntu@vlab.ustc.edu.cn
+```
 然后输入：
-`ssh -p 1332 assac@localhost`
+```
+ssh -p 1332 assac@localhost
+```
 
 
 ## vscode config配置：
