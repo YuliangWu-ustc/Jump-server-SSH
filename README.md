@@ -4,13 +4,14 @@
 参考教程：
 'https://www.cnblogs.com/XiiX/p/15095135.html'
 
-作为跳板机的学校虚拟机网址：
-```https://vlab.ustc.edu.cn```
+
 
 
 现在有三台机器：实验室电脑A,跳板服务器B,移动笔记本C
 ## Step1:
-登陆网址，创建虚拟机
+登陆网址，创建虚拟机.
+作为跳板机的学校虚拟机网址：
+```https://vlab.ustc.edu.cn```
 
 ## Step2:
 A上输入：
