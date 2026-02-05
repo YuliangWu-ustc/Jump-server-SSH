@@ -57,7 +57,7 @@ ssh -L 8888:127.0.0.1:1332 ubuntu@vlab.ustc.edu.cn
 
 然后在C上打开vscode，连接这个config对应的ssh即可：
 ```
-Host my-final-target
+Host PCB608
     HostName 127.0.0.1
     Port 8888
     User assac
