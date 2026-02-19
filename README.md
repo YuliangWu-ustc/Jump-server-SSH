@@ -1,5 +1,4 @@
-# -ssh-
-配置实验室电脑ssh跳板机转发
+# 配置ustc实验室电脑ssh跳板机转发
 
 参考教程：
 'https://www.cnblogs.com/XiiX/p/15095135.html'
