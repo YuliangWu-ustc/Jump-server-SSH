@@ -9,8 +9,8 @@
 
 现在有三台机器：实验室电脑A,跳板服务器B,移动笔记本C
 ## Step1:
-登陆网址，创建虚拟机.
-作为跳板机的学校虚拟机网址：
+登陆网址，创建虚拟机（即跳板服务器B）.
+作为跳板机的ustc虚拟机网址：
 ```https://vlab.ustc.edu.cn```
 
 ## Step2:
@@ -33,7 +33,7 @@ ssh -p 1332 name@localhost
 sudo sh -c "echo 'GatewayPorts yes' >> /etc/ssh/sshd_config"
 sudo service ssh restart
 ```
-#GatewayPorts yes确保外网也能访问这个1321这个监听端口，而不是只能被localhost访问。
+#GatewayPorts yes确保外网也能访问这个1332这个监听端口，而不是只能被localhost访问。
 
 ## Step5:
 现在可以在C上测试一下：
